@@ -40,7 +40,7 @@ void loop() {
     }
   }
 
-  if(periods >= 12){
+  if(periods >= NUMPIXELS){
     flash();
   }
 }
